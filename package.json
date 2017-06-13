@@ -1,0 +1,30 @@
+{
+  "name": "atom-solargraph",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "Ruby code completion and inline documentation",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-solargraph:restart"
+  },
+  "activationHooks": [
+    "language-ruby:grammar-used"
+  ],
+  "repository": "https://github.com/atom/atom-solargraph",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "request": "^2.79.0",
+    "html-to-text": "^3.3.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  }
+}

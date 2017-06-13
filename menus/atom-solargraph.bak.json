@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-solargraph",
+        "command": "atom-solargraph:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-solargraph",
+          "submenu": [
+            {
+              "label": "Restart Solargraph",
+              "command": "atom-solargraph:restart"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
