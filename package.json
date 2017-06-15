@@ -11,7 +11,7 @@
   "activationHooks": [
     "language-ruby:grammar-used"
   ],
-  "repository": "https://github.com/atom/atom-solargraph",
+  "repository": "https://github.com/castwide/atom-solargraph",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
