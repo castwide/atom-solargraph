@@ -1,9 +1,10 @@
 {
-  "name": "atom-solargraph",
+  "name": "ruby-solargraph",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Ruby code completion and inline documentation",
   "keywords": [
+    "ruby", "autocomplete"
   ],
   "activationCommands": {
     "atom-workspace": "atom-solargraph:restart"
