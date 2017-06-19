@@ -1,5 +1,5 @@
 {
-  "name": "ruby-solargraph",
+  "name": "atom-solargraph",
   "main": "./lib/main",
   "version": "0.0.0",
   "description": "Ruby code completion and inline documentation",
