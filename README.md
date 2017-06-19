@@ -1,8 +1,8 @@
-# atom-solargraph
+# ruby-solargraph
 
-Ruby code completion.
+Ruby code completion and inline documentation.
 
-![A screenshot of your package](atom-solargraph-0.0.1.jpg)
+![Screenshot](atom-solargraph-0.0.1.jpg)
 
 ## Features
 
