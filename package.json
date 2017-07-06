@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "request": "^2.79.0",
-    "html-to-text": "^3.3.0"
+    "html-to-text": "^3.3.0",
+    "solargraph-utils": "^0.1.0"
   },
   "providedServices": {
     "autocomplete.provider": {
