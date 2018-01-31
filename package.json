@@ -1,7 +1,7 @@
 {
   "name": "ruby-solargraph",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ruby code completion and inline documentation",
   "keywords": [
     "ruby",
@@ -21,12 +21,12 @@
   "dependencies": {
     "request": "^2.79.0",
     "html-to-text": "^3.3.0",
-    "solargraph-utils": "^0.2.0"
+    "solargraph-utils": "^0.4.1"
   },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
-        "2.0.0": "provide"
+        "4.0.0": "provide"
       }
     }
   }
