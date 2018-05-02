@@ -19,10 +19,17 @@
     "solargraph-utils": "^0.7.2",
     "atom-languageclient": "^0.9.4"
   },
+  "consumedServices": {
+    "atom-ide-busy-signal": {
+      "versions": {
+        "0.1.0": "consumeBusySignal"
+      }
+    }
+  },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
-        "2.0.0": "provideAutoComplete"
+        "4.0.0": "provideAutocomplete"
       }
     }
   }
