@@ -7,26 +7,22 @@
     "ruby",
     "autocomplete"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-solargraph:restart"
-  },
-  "activationHooks": [
-    "language-ruby:grammar-used"
-  ],
   "repository": "https://github.com/castwide/atom-solargraph",
   "license": "MIT",
+  "enhancedScopes": [
+    "source.ruby"
+  ],
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.21.0"
   },
   "dependencies": {
-    "request": "^2.79.0",
-    "html-to-text": "^3.3.0",
-    "solargraph-utils": "^0.4.1"
+    "solargraph-utils": "^0.7.2",
+    "atom-languageclient": "^0.9.4"
   },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
-        "4.0.0": "provide"
+        "2.0.0": "provideAutoComplete"
       }
     }
   }
