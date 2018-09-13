@@ -32,6 +32,16 @@
         "4.0.0": "provideAutocomplete"
       }
     },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "find-references": {
+      "versions": {
+        "0.1.0": "provideFindReferences"
+      }
+    },
     "outline-view": {
       "versions": {
         "0.1.0": "provideOutlines"
