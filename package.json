@@ -16,19 +16,13 @@
     "atom": ">=1.21.0"
   },
   "dependencies": {
-    "solargraph-utils": "^0.7.2",
-    "atom-languageclient": "^0.9.4"
-  },
-  "consumedServices": {
-    "atom-ide-busy-signal": {
-      "versions": {
-        "0.1.0": "consumeBusySignal"
-      }
-    }
+    "solargraph-utils": "^0.8.2",
+    "atom-languageclient": "^0.9.9"
   },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
+        "2.0.0": "provideAutocomplete",
         "4.0.0": "provideAutocomplete"
       }
     },
@@ -46,6 +40,13 @@
       "versions": {
         "0.1.0": "provideOutlines"
       }
+    }
+  },
+  "configSchema": {
+    "commandPath": {
+      "type": "string",
+      "default": "solargraph",
+      "description": "Path to the solargraph command."
     }
   }
 }
