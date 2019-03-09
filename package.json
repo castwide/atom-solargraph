@@ -1,7 +1,7 @@
 {
   "name": "ruby-solargraph",
   "main": "./lib/main",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A Ruby language server featuring code completion and inline documentation",
   "keywords": [
     "ruby",
