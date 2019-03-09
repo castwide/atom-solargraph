@@ -39,3 +39,7 @@ local and instance variables. Example:
     # @type [String]
     my_variable = some_method_call
     my_variable. # <= Hitting crtl-space here will suggest String instance methods
+
+## Configuration
+
+* `commandPath`: The path to the `solargraph` executable.
