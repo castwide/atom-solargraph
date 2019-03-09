@@ -1,4 +1,4 @@
-## 0.4.0
+## 0.4.0 - March 9, 2019
 - Add outline, references, and definition service
 - commandPath configuration option
 - Autocomplete provider configuration
