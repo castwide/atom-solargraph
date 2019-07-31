@@ -1,3 +1,7 @@
+## 0.5.1 - July 31, 2019
+- Remove provide.excludeLowerPriority
+- Add filterChangeWatchedFiles
+
 ## 0.4.0 - March 9, 2019
 - Add outline, references, and definition service
 - commandPath configuration option
