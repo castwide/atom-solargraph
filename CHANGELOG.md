@@ -1,4 +1,4 @@
-## 0.5.1 - July 31, 2019
+## 0.6.1 - July 31, 2019
 - Remove provide.excludeLowerPriority
 - Add filterChangeWatchedFiles
 
