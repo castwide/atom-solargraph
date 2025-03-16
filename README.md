@@ -1,5 +1,7 @@
 # ruby-solargraph
 
+**This project has been archived.** See [https://github.com/castwide/solargraph](the Solargraph gem repo) for current information about the Solargraph gem and available extensions.
+
 Ruby code completion and inline documentation.
 
 ![Screenshot](atom-solargraph-0.0.1.jpg)
